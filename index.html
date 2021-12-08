@@ -6,8 +6,9 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/data.js"></script>
 </head>
-<body>
+<body onload="loadData()">
 <div class="card">
     <div class="topinfo">
         <h1><img
@@ -15,18 +16,35 @@
     </div>
     <hr>
     <div class="content">
-        <img src="https://thispersondoesnotexist.com/image" class="avatar">
+        <img id="avatar" src="" class="avatar">
         <div class="inf">
-            <p class="main">
-                Maria Kowalska
+            <p id="name" class="main">
             </p>
-            <p class="down">Imię i Nazwisko</p>
+            <p class="down">Full Name</p>
         </div>
         <div class="inf">
-            <p class="main">
+            <p id="location" class="main">
 
             </p>
-            <p class="down">Miasto Zamieszkania</p>
+            <p class="down">Adress</p>
+        </div>
+        <div class="inf">
+            <p id="location2" class="main">
+
+            </p>
+            <p class="down">State and Country</p>
+        </div>
+        <div class="inf">
+            <p id="birth" class="main">
+
+            </p>
+            <p class="down">Birth</p>
+        </div>
+        <div class="inf">
+            <p id="gender" class="main">
+
+            </p>
+            <p class="down">Gender</p>
         </div>
     </div>
 </div>
